@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'DS-Digital';
+    src: url(./DS-Digital.ttf.woff) format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: lightblue;
+    font-family: 'DS-Digital', sans-serif;
+    color: #32CD32;
+}
+
+#clock{
+    color: #0ff;
+    font-size: 100px;
+    box-shadow: 0 0 30px;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
